@@ -1,0 +1,19 @@
+* {
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+}
+
+.primeira {
+    width: 500px;
+    height: 500px;
+    text-align: justify;
+    padding: 60px;
+    background-color: bisque;
+    margin-top: 50px;
+    margin-left: 20px;
+    
+}
+

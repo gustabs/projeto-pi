@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+
+* {
+    margin: 0;
+}
+.navbar {
+    background-color: aqua;
+    line-height: 100px;
+}
+
+.botoes-nav {
+    float: right;
+    margin-right: 30px;
+}
+

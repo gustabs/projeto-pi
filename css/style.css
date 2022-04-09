@@ -1,11 +1,11 @@
 body {
     margin: 0;
-    background-color: aqua;
 }
 
 * {
     margin: 0;
 }
+
 .navbar {
     background-color: rgb(85, 126, 126);
     line-height: 100px;
@@ -15,4 +15,3 @@ body {
     float: right;
     margin-right: 30px;
 }
-

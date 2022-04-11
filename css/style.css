@@ -15,3 +15,7 @@ body {
     float: right;
     margin-right: 30px;
 }
+
+p {
+    color: black;
+}

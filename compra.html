@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/compra.css">
     <script src="js/compra.js"></script>
+    <script src="js/validar.js"></script>
     <title>Document</title>
 </head>
 <body>
+  <a href="index.html"><button class="btn back-btn" onclick="volta()" >Voltar</button></a>
+  <form action="index.html" name="comprar" onsubmit="return validar()">
     <div class="conteudo-geral">
     <center>
     <div class="checkout-panel">
@@ -38,24 +41,24 @@
           <div class="input-fields">
             <div class="column-1">
               <label for="cardholder">Nome</label>
-              <input type="text" id="cardholder" />
+              <input type="text" id="cardholder" name="nome"maxlength="75" minlength="10"/>
        
               <div class="small-inputs">
                 <div>
                   <label for="date">Data de validade</label>
-                  <input type="text" id="date"/>
+                  <input type="text" id="date" name="validade"maxlength="4" minlength="4"/>
                 </div>
        
                 <div>
                   <label for="verification">CVV / CVC *</label>
-                  <input type="password" id="verification"/>
+                  <input type="text" id="verification" name="cvv"maxlength="3" minlength="3"/>
                 </div>
               </div>
        
             </div>
             <div class="column-2">
               <label for="cardnumber">Numero do cartão</label>
-              <input type="password" id="cardnumber"/>
+              <input type="text" id="cardnumber" name="numero"maxlength="16" minlength="16"/>
               <div class="aviso"></div>
        
               <span class="info">* CVV ou CVC é o código de segurança do cartão, número único de três dígitos no verso do seu cartão separado do seu número.</span>
@@ -64,8 +67,8 @@
         </div>
        
         <div class="panel-footer">
-          <a href="index.html"><button class="btn back-btn">Voltar</button></a>
-          <a href="index.html"><button class="btn next-btn">Finalizar</button></a>
+          <a href="index.html"><button class="btn back-btn" onclick="volta()" >Voltar</button></a>
+          <a href="index.html"><button class="btn next-btn" name="">Finalizar</button></a>
         </div>
       </div>
     </center>

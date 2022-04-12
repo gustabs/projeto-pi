@@ -210,12 +210,14 @@
     transition: all .2s ease-in-out;
     letter-spacing: 1px;
     border: none;
-    border-radius: 23px;
+    border-radius: 15px;
   }
    
   .back-btn {
     color: #1abc9c;
     background: #fff;
+    margin-bottom: 1600px;
+    margin-left: -930px;
   }
    
   .next-btn {

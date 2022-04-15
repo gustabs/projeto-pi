@@ -45,13 +45,9 @@ function validar(){/*função validar */
         alert('CVV/CVC deve conter 3 caracteres!')
         return false;
     }
+    /*==================================================CONFIG-FINISH==================================================*/
     else{
-        alert('Cadastro criado com sucesso.')
+        alert('Compra relizada com sucesso.')
         return true;
-    }
-
-    function volta(){
-
-        window.history.back();
     }
 }

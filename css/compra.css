@@ -5,8 +5,9 @@
    
 
   .conteudo-geral {
-      margin-top: 50px;
+      margin-top: 10%;
   }
+
   html,
   body {
     font-family: 'Montserrat', sans-serif;
@@ -22,7 +23,7 @@
     display: flex;
     flex-direction: column;
     width: 940px;
-    height: 766px;
+    height: 700px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2);
   }
@@ -201,6 +202,7 @@
     background-color: rgb(239, 239, 239);
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 50px;
   }
   .btn {
     font-size: 16px;
@@ -216,8 +218,6 @@
   .back-btn {
     color: #1abc9c;
     background: #fff;
-    margin-bottom: 1600px;
-    margin-left: -930px;
   }
    
   .next-btn {

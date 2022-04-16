@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    border-radius: 25px;
+    border-radius: 3%;
   }
    
 
@@ -22,7 +22,7 @@
   .checkout-panel {
     display: flex;
     flex-direction: column;
-    width: 940px;
+    width: 104%;
     height: 700px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2);

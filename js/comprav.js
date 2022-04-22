@@ -1,4 +1,4 @@
-function validar(){/*função validar */
+function compra(){/*função validar */
 
     /*==================================================CONFIG-METODO-DE-PAGAMENTO==================================================*/ 
     if(document.comprar.payment.value == ""){

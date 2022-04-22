@@ -1,4 +1,4 @@
-    function validar(){
+    function formv(){
     if(document.dados.lNome.value == ""){
         alert('Preencha o campo Nome.')
         return false;

@@ -4,7 +4,7 @@
     $senha="";
     $database="formulariolog";
 
-    $conexao=mysqli_connect ($servidor, $usuario, $senha, $database);
+    $conexao= mysqli_connect ($servidor, $usuario, $senha, $database);
 
     if($conexao){
         echo "Conexão bem-sucedida";

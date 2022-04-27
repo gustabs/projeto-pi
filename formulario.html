@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/form.css">
-    <script src="js/form.js"></script>
+    <script src="js/formv.js"></script>
 
     <title>Document</title>
 </head>
@@ -34,7 +34,7 @@
     <section class="container">
         <h1>Increva-se e inicie sua jornada!</h1>
         <hr>
-        <form action="login.php" method="post">
+        <form action="login.php" method="post" onsubmit="return formv()" name="dados">
             <input type="input" type="text" name="lNome" placeholder="Nome completo:"><br><br>
             <input type="email" name="lEmail" placeholder="Email:"><br><br>
             <input type="password" name="lSenha" placeholder="Senha"><br>

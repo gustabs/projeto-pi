@@ -9,3 +9,4 @@ $sql= "INSERT INTO cadastro
 ('$nome', '$email', '$senha')";
 $query= mysqli_query($conexao, $sql);
 ?>
+

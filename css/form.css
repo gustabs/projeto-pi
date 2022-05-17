@@ -8,20 +8,37 @@ body {
 
 .container {
     text-align: center;
-    margin-top: 90px;
-    background-color: #f5f5f5;
+    margin-top: 200px;
+    background-color: rgb(56, 56, 56);
     width: 500px;
+    border-radius: 30px;
     border: 2px solid black;
+    color: white;
 }
 
 #btnform {
-    background-color: #423D3C;
-    color: #f5f5f5;
+    background-color: black;
+    color: white;
     font-size: 19px;
     width: 180px;
     outline: none;
     border: none;
     margin-top: 35px;
     cursor: pointer;
+    border-radius: 5px;
 }
 
+#btnform:hover {
+    color: black;
+    background-color: white;
+}
+
+p {
+    color: white;
+}
+
+.footer-basic {
+    clear: both;
+    bottom: 0;
+    margin-top: 300px;
+}

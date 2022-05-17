@@ -7,8 +7,9 @@ body {
 }
 
 .navbar {
-    background-color: gray;
+    background-color: rgb(56, 56, 56);
     line-height: 100px;
+    color: white;
 }
 
 .botoes-nav {
@@ -19,3 +20,18 @@ body {
 p {
     color: black;
 }
+
+.botoes-nav.btn{
+    background-color: aliceblue;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+

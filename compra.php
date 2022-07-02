@@ -21,6 +21,11 @@ $sql= "INSERT INTO compras
 $query= mysqli_query($conexao, $sql);
 ?>
 
+<script>
+    alert('Sua compra foi efetuada com sucesso')
+    window.location.href="index.html"
+</script>
+
 <!-- include_once('index.php');        ??index.php é onde fica o log para conexão com o banco
 $(nome do type) = $_POST ['Type do input'];
 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,16 +19,17 @@
     <script src="js/comprav.js"></script>
     <title>Document</title>
 </head>
+
 <body>
-  <center>
-  <form action="compra.php" onsubmit="return compra()" method="post" name="comprar">
-    <div class="conteudo-geral">
     <center>
-    <div class="checkout-panel">
-        <div class="panel-body">
-          <h2 class="title">Confira aqui!</h2>
-          <div class="payment-method">
-            <label for="card" class="method card">
+        <form action="compra.php" onsubmit="return compra()" method="post" name="comprar">
+            <div class="conteudo-geral">
+                <center>
+                    <div class="checkout-panel">
+                        <div class="panel-body">
+                            <h2 class="title">Confira aqui!</h2>
+                            <div class="payment-method">
+                                <label for="card" class="method card">
               <div class="card-logos">
                 <img src="https://designmodo.com/demo/checkout-panel/img/visa_logo.png"/>
                 <img src="https://designmodo.com/demo/checkout-panel/img/mastercard_logo.png"/>
@@ -37,14 +39,15 @@
                 Pague com cartão de crédito
               </div>
             </label>
-       
-            <label for="paypal" class="method paypal">
+
+                                <label for="paypal" class="method paypal">
               <img src="https://designmodo.com/demo/checkout-panel/img/paypal_logo.png"/>
               <div class="radio-input">
                 <input id="paypal" type="radio" name="payment">
                 Pague com o PayPal
               </div>
             </label>
+<<<<<<< HEAD
           </div>
        
           <div class="input-fields">
@@ -158,9 +161,47 @@
           <a href="endereco.html"><button class="btn next-btn">Finalizar</button></a>
         </div>
       </div>
+=======
+                            </div>
+
+                            <div class="input-fields">
+                                <div class="column-1">
+                                    <label for="cardholder">Nome</label>
+                                    <input type="text" id="cardholder" name="nome" maxlength="75" minlength="10" />
+
+                                    <div class="small-inputs">
+                                        <div>
+                                            <label for="date">Data de validade</label>
+                                            <input type="text" id="date" name="validade" maxlength="4" minlength="4" />
+                                        </div>
+
+                                        <div>
+                                            <label for="verification">CVV / CVC *</label>
+                                            <input type="text" id="verification" name="cvv" maxlength="3" minlength="3" />
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="column-2">
+                                    <label for="cardnumber">Numero do cartão</label>
+                                    <input type="text" id="cardnumber" name="numero" maxlength="16" minlength="16" />
+                                    <div class="aviso"></div>
+
+                                    <span class="info">* CVV ou CVC é o código de segurança do cartão, número único de três dígitos no verso do seu cartão separado do seu número.</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel-footer">
+                            <a href="index.html" class="btn back-btn">Voltar</a>
+                            <a href="index.html"><button class="btn next-btn">Finalizar</button></a>
+                        </div>
+                    </div>
+                </center>
+>>>>>>> cf1d3913eb734ba0cd8505af2ccdb5d57f3cd529
     </center>
-  </center>
-</div>
-</form>
+    </div>
+    </form>
 </body>
+
 </html>

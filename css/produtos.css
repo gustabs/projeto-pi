@@ -1,62 +1,86 @@
 /* Essa opção regula tamanho da imagem*/
+
 .banner {
-    border: 2px solid #ffffff; /* Adiciona cor a borda*/
+    border: 2px solid #ffffff;
+    /* Adiciona cor a borda*/
     width: 250px;
     height: 250px;
 }
 
+
 /* Essta opção altera o estilo do titulo*/
+
 .caption {
     color: black;
     font-size: 18px;
     line-height: 24px;
 }
 
+
 /* Essa opção centraliza os itens */
+
 .wrapper-banner {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
+
 /* Essa opção altera o espaço */
+
 .wrapper-banner .banner {
     margin-bottom: 10px;
 }
 
+
 /* Essa opção centraliza ambos os elementos*/
+
 .wrapper-banner .caption {
     text-align: center;
 }
 
+
 /* Esta opção é feita para organizar os itens */
+
 .list-banner {
-    display: flex;  
+    display: flex;
     justify-content: center;
     padding-top: 100px;
-    flex-wrap: wrap; /* Opção organiza os itens */
+    flex-wrap: wrap;
+    /* Opção organiza os itens */
 }
 
+
 /* Esta opção determina distancia entre os itens */
+
 .list-banner .wrapper-banner {
     margin-right: 30px;
     margin-left: 30px;
-} 
+}
+
 
 /* Definição de tamanho para as caixas */
-.container{
-    width: 300px; /* Define a largura da caixa */
-    height: 700px; /* Define a altura da caixa */
-    padding: 30px; /* define a distancia da parte de cima da caixa entre a imagem imagem */
-    margin: 20px; /* define a distancia entre as caixas*/
-    background-color: whitesmoke; /* Altera a cor das caixas */ 
-    border-radius: 30px; /* Altera a borda das caixas */
+
+.container {
+    width: 300px;
+    /* Define a largura da caixa */
+    height: 700px;
+    /* Define a altura da caixa */
+    padding: 30px;
+    /* define a distancia da parte de cima da caixa entre a imagem imagem */
+    margin: 20px;
+    /* define a distancia entre as caixas*/
+    background-color: whitesmoke;
+    /* Altera a cor das caixas */
+    border-radius: 30px;
+    /* Altera a borda das caixas */
 }
 
 .container:hover {
-    -webkit-transform: scale(1.1);  /* Faz animação de pulo */
-    transform: scale(1.1);  /* Faz animação de pulo */
+    -webkit-transform: scale(1.1);
+    /* Faz animação de pulo */
+    transform: scale(1.1);
+    /* Faz animação de pulo */
 }
 
 .preco {

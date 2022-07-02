@@ -6,7 +6,7 @@ $data = $_POST ['validade'];
 $cvv = $_POST ['cvv'];
 
 $endereco = $_POST ['endereco'];
-$numero = $_POST ['numero'];
+$casa = $_POST ['casa'];
 $complemento = $_POST ['complemento'];
 $bairro = $_POST ['bairro'];
 $cidade = $_POST ['cidade'];
@@ -16,8 +16,8 @@ $estado = $_POST ['estado'];
 
 
 $sql= "INSERT INTO compras
-(Nome, Numero, Data, CVV, Endereço, Numero, Complemento, Bairro, Cidade, Telefone, Estado) VALUES
-('$nome', '$numero', '$data', '$cvv', '$endereco', '$numero', '$complemento', '$bairro', '$cidade', '$telefone', '$estado')";
+(Nome, Numero, Data, CVV, Endereço, Casa, Complemento, Bairro, Cidade, Telefone, Estado) VALUES
+('$nome', '$numero', '$data', '$cvv', '$endereco', '$casa', '$complemento', '$bairro', '$cidade', '$telefone', '$estado')";
 $query= mysqli_query($conexao, $sql);
 ?>
 

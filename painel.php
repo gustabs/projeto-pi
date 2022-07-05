@@ -19,8 +19,7 @@ include('verifica_login.php');
 
 
     <!--==================================================CSS_PRINCIPAL==================================================-->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbarlog.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/produtos.css">
     <link rel="stylesheet" href="css/carrosel.css">
@@ -35,9 +34,9 @@ include('verifica_login.php');
     <!--==================================================NAV-BAR==================================================-->
     <header class="navbar">
         <h1>Go.Jordan</h1>
-        <div class="botoes-nav">
         <h2><?php echo $_SESSION['usuario'];?></h2>
-        <h2><a href="logout.php">Sair</a></h2>
+        <div class="botoes-nav">
+        <a href="logout.php"><button type="button" class="btn btn-light"">Sair</button></a>
 
         </div>
     </header>
@@ -217,14 +216,14 @@ include('verifica_login.php');
             <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a> </div>
             <ul class="list-inline">
                 <li class="list-inline-item"><a href="#">Inicio</a></li>
-                <li class="list-inline-item"><a href="service.html">Serviços</a></li>
+                <li class="list-inline-item"><a href="#">Serviços</a></li>
                 <li class="list-inline-item"><a href="#">Termos</a></li>
                 <li class="list-inline-item"><a href="#">Politica e privacidade</a></li>
+<button type="button" class="btn btn-lg">Inicio</button>
             </ul>
             <p class="copyright">Go.Jordan© 2022</p>
         </footer>
     </div>
-
 
     <!--==================================================FOOTER-JS==================================================-->
 
@@ -232,6 +231,10 @@ include('verifica_login.php');
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
 
+    <script>
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+    </script>
 
 
 </body>

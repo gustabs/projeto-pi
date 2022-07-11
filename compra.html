@@ -47,82 +47,82 @@
                 Pague com o PayPal
               </div>
             </label>
-          </div>
-       
-          <div class="input-fields">
-            <div class="column-1">
-              <label for="cardholder">Nome</label>
-              <input type="text" id="cardholder" name="nome" maxlength="75" minlength="10"/>
-       
-              <div class="small-inputs">
-                <div>
-                  <label for="date">Data de validade</label>
-                  <input type="text" id="date" name="validade" maxlength="4" minlength="4"/>
-                </div>
-       
-                <div>
-                  <label for="verification">CVV / CVC *</label>
-                  <input type="text" id="verification" name="cvv" maxlength="3" minlength="3"/>
-                </div>
-              </div>
-       
-            </div>
-            <div class="column-2">
-              <label for="cardnumber">Numero do cartão</label>
-              <input type="text" id="cardnumber" name="numero" maxlength="16" minlength="16"/>
-              <div class="aviso"></div>
-       
-              <span class="info">* CVV ou CVC é o código de segurança do cartão, número único de três dígitos no verso do seu cartão separado do seu número.</span>
-            </div>
-          </div>
-        </div>
-       
-        <h1>Entrega</h1>
-            <br>
-            <div class="grupo-input">
+                            </div>
 
-            <div class="row">
-                <div class="col">
-                    <div class="input-group mb-3">
-                        <span class="input-group-text" id="inputGroup-sizing-default">Endereço</span>
-                        <input name="endereco" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="input-group mb-3">
-                        <span class="input-group-text" id="inputGroup-sizing-default">Número</span>
-                        <input name="casa" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-                    </div>
-                </div>
-              </div>
+                            <div class="input-fields">
+                                <div class="column-1">
+                                    <label for="cardholder">Nome</label>
+                                    <input type="text" id="cardholder" name="nome" maxlength="75" minlength="10" />
 
-              <div class="input-group mb-3">
-                <span class="input-group-text" id="inputGroup-sizing-default">Complemento</span>
-                <input name="complemento" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Opcional">
-              </div>
+                                    <div class="small-inputs">
+                                        <div>
+                                            <label for="date">Data de validade</label>
+                                            <input type="text" id="date" name="validade" maxlength="4" minlength="4" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1')" ;>
+                                        </div>
 
-              <div class="input-group mb-3">
-                <span class="input-group-text" id="inputGroup-sizing-default">Bairro</span>
-                <input name="bairro" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-              </div>
+                                        <div>
+                                            <label for="verification">CVV / CVC *</label>
+                                            <input type="text" id="verification" name="cvv" maxlength="3" minlength="3" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1')" ;>
+                                        </div>
+                                    </div>
 
-              <div class="input-group mb-3">
-                <span class="input-group-text" id="inputGroup-sizing-default">Cidade</span>
-                <input name="cidade" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-              </div>
+                                </div>
+                                <div class="column-2">
+                                    <label for="cardnumber">Numero do cartão</label>
+                                    <input type="text" id="cardnumber" name="numero" maxlength="16" minlength="16" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1')" ;>
+                                    <div class="aviso"></div>
 
-              <div class="input-group mb-3">
-                <span class="input-group-text" id="inputGroup-sizing-default">Telefone</span>
-                <input name="telefone" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-              </div>
+                                    <span class="info">* CVV ou CVC é o código de segurança do cartão, número único de três dígitos no verso do seu cartão separado do seu número.</span>
+                                </div>
+                            </div>
+                        </div>
 
-            </div>
+                        <h1>Entrega</h1>
+                        <br>
+                        <div class="grupo-input">
+
+                            <div class="row">
+                                <div class="col">
+                                    <div class="input-group mb-3">
+                                        <span class="input-group-text" id="inputGroup-sizing-default">Endereço</span>
+                                        <input name="endereco" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="input-group mb-3">
+                                        <span class="input-group-text" id="inputGroup-sizing-default">Número</span>
+                                        <input name="casa" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1')" ;>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class=" input-group mb-3 ">
+                                <span class="input-group-text " id="inputGroup-sizing-default ">Complemento</span>
+                                <input name="complemento " type="text " class="form-control " aria-label="Sizing example input " aria-describedby="inputGroup-sizing-default " placeholder="Opcional ">
+                            </div>
+
+                            <div class="input-group mb-3 ">
+                                <span class="input-group-text " id="inputGroup-sizing-default ">Bairro</span>
+                                <input name="bairro " type="text " class="form-control " aria-label="Sizing example input " aria-describedby="inputGroup-sizing-default ">
+                            </div>
+
+                            <div class="input-group mb-3 ">
+                                <span class="input-group-text " id="inputGroup-sizing-default ">Cidade</span>
+                                <input name="cidade " type="text " class="form-control " aria-label="Sizing example input " aria-describedby="inputGroup-sizing-default ">
+                            </div>
+
+                            <div class="input-group mb-3 ">
+                                <span class="input-group-text " id="inputGroup-sizing-default ">Telefone</span>
+                                <input name="telefone " type="text " class="form-control " aria-label="Sizing example input " aria-describedby="inputGroup-sizing-default ">
+                            </div>
+
+                        </div>
 
 
-              <center>
-              <div class="col-md-4">
-                <label for="inputState" class="form-label">Estado</label>
-                <select name="estado" id="inputState" class="form-select">
+                        <center>
+                            <div class="col-md-4 ">
+                                <label for="inputState " class="form-label ">Estado</label>
+                                <select name="estado " id="inputState " class="form-select ">
                   <option>Acre - AC</option>
                   <option>Alagoas - AL</option>
                   <option>Amapá - AP</option>
@@ -151,18 +151,18 @@
                   <option>Sergipe - SE</option>
                   <option>Tocantins - TO</option>
                 </select>
-              </div>
-              </center>
+                            </div>
+                        </center>
 
-              <br>
-        <div class="panel-footer">
-          <a href="index.html" class="btn back-btn">Voltar</a>
-          <a href="endereco.html"><button class="btn next-btn">Finalizar</button></a>
-        </div>
-      </div>
-            
-    </div>
-    </form>
+                        <br>
+                        <div class="panel-footer ">
+                            <a href="index.html " class="btn back-btn ">Voltar</a>
+                            <a href="painel.php "><button class="btn next-btn ">Finalizar</button></a>
+                        </div>
+                    </div>
+
+            </div>
+        </form>
 </body>
 
 </html>

@@ -33,7 +33,9 @@ session_start();
     </header>
 
 <section class="container">
-        <h1>Increva-se!</h1>
+        <h1>Faça seu login</h1>
+        <p>É necessario fazer login para comprar</p>
+        <br>
         <form action="login.php" method="post" onsubmit="return formv()" name="dados">
             <input type="email" name="usuario" placeholder="Email:"><br><br>
             <input type="password" name="senha" placeholder="Senha"><br>

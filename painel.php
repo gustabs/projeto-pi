@@ -91,7 +91,7 @@ include('verifica_login.php');
             <a href="compra.html" class="comprano" style="text-decoration: none; color: black;">
                 <figure class="wrapper-banner">
                     <img class="banner" src="img/Tenis Air Jordan 1 Mid Masc.webp" alt="">
-                    <figcaption class="caption">Nome do produtos</figcaption>
+                    <figcaption class="caption">Tênis Air Jordan 1 Low SE</figcaption>
                     <br>
                     <center>O tênis Air Jordan 1 Mid é inspirado no primeiro modelo AJ1, oferecendo aos fãs dos Jordan retrôs a oportunidade de seguir os passos da grandeza. A cor nova dá acabamento aos materiais limpos e clássicos, adicionando uma novidade nodesign
                         familiar.
@@ -108,7 +108,7 @@ include('verifica_login.php');
             <div class="container">
                 <figure class="wrapper-banner">
                     <img class="banner" src="img/tenis-air-jordan-1-mid-se-craft.webp" alt="">
-                    <figcaption class="caption">Nome do produtos</figcaption>
+                    <figcaption class="caption">Tênis Air Jordan 1 Low SE</figcaption>
                     <br>
                     <center>Sempre fresco e pronto para jogar, o AJ1 é um dos tênis mais icônicos de todos os tempos. Esta versão usa tons naturais e detalhes de suede para uma renovação marcante para uma lenda.</center>
                 </figure>
@@ -123,7 +123,7 @@ include('verifica_login.php');
             <div class="container">
                 <figure class="wrapper-banner">
                     <img class="banner" src="img/tenis-air-jordan-1-mid-se-masculino-DM.webp" alt="">
-                    <figcaption class="caption">Nome do produtos</figcaption>
+                    <figcaption class="caption">Tênis Air Jordan 1 Low SE</figcaption>
                     <br>
                     <center>Decole com o logotipo Jumpman com o Air Jordan 1 Mid SE, feito com pelo menos 20% de materiais reciclados por peso. Estes tênis de edição especial foram inspirados em vestuário de trabalho robusto.</center>
                 </figure>
@@ -138,7 +138,7 @@ include('verifica_login.php');
             <div class="container">
                 <figure class="wrapper-banner">
                     <img class="banner" src="img/Tênis Air Jordan 1 Low SE amarelo.webp" alt="">
-                    <figcaption class="caption">Nome do produtos</figcaption>
+                    <figcaption class="caption">Tênis Air Jordan 1 Low SE</figcaption>
                     <br>
                     <center>Sempre renovado e nunca fora de moda, o Air Jordan 1 Low SE é um dos sneakers mais icônicos de todos os tempos. Ele busca inspiração nas paisagens naturais com tons terrosos e detalhes em lona para uma atualização sólida de uma lenda
                         em ascensão.</center>
@@ -153,6 +153,7 @@ include('verifica_login.php');
             <div class="container">
                 <figure class="wrapper-banner">
                     <img class="banner" src="img/Tênis Air Jordan 1 Low SE preto.webp" alt="">
+                    <figcaption class="caption">Tênis Air Jordan 1 Low SE</figcaption>
                     <br>
                     <center>Sempre novo e nunca fora de moda, o Air Jordan 1 Low SE é um dos sneakers mais icônicos de todos os tempos. Ele busca inspiração nas paisagens naturais com tons terrosos e detalhes em lona para renovar uma lenda dos ares.</center>
                 </figure>
@@ -167,7 +168,7 @@ include('verifica_login.php');
             <div class="container">
                 <figure class="wrapper-banner">
                     <img class="banner" src="img/Tênis Air Jordan 1 MID SE black.webp" alt="">
-                    <figcaption class="caption">Nome do produtos</figcaption>
+                    <figcaption class="caption">Tênis Air Jordan 1 Low SE</figcaption>
                     <br>
                     <center>Um dos sneakers mais icônicos da história ganha um novo brilho para celebrar os 75 anos da NBA. Uma borda de diamante na etiqueta da língua homenageia as bodas de diamante da NBA para atualizar um dos grandes favoritos.</center>
                 </figure>
@@ -182,7 +183,7 @@ include('verifica_login.php');
             <div class="container">
                 <figure class="wrapper-banner">
                     <img class="banner" src="img/Tênis Air Jordan 1 MID SE verde.webp" alt="">
-                    <figcaption class="caption">Nome do produtos</figcaption>
+                    <figcaption class="caption">Tênis Air Jordan 1 Low SE</figcaption>
                     <center>Faça seu estilo decolar com o Air Jordan 1 Mid, o sneaker das infinitas possibilidades. Essa nova edição especial do famoso tênis de cano médio oferece conforto ininterrupto para quem não se cansa do clássico de herança.</center>
                 </figure>
                 <center>
@@ -196,7 +197,7 @@ include('verifica_login.php');
             <div class="container">
                 <figure class="wrapper-banner">
                     <img class="banner" src="img/Tênis Air Jordan 1 MID SE vermelho.webp" alt="">
-                    <figcaption class="caption">Nome do produtos</figcaption>
+                    <figcaption class="caption">Tênis Air Jordan 1 Low SE</figcaption>
                     <br>
                     <center>Com denim e suede lavados, este Air Jordan 1 Mid SE clássico se torna imbatível. Os materiais são inspirados no look e na textura da roupa social.</center>
                 </figure>
@@ -216,10 +217,6 @@ include('verifica_login.php');
             <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a> </div>
             <ul class="list-inline">
                 <li class="list-inline-item"><a href="#">Inicio</a></li>
-                <li class="list-inline-item"><a href="#">Serviços</a></li>
-                <li class="list-inline-item"><a href="#">Termos</a></li>
-                <li class="list-inline-item"><a href="#">Politica e privacidade</a></li>
-<button type="button" class="btn btn-lg">Inicio</button>
             </ul>
             <p class="copyright">Go.Jordan© 2022</p>
         </footer>
@@ -230,11 +227,6 @@ include('verifica_login.php');
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-
-    <script>
-const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
-const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
-    </script>
 
 
 </body>

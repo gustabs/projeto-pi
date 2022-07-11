@@ -23,7 +23,7 @@ $query= mysqli_query($conexao, $sql);
 
 <script>
     alert('Sua compra foi efetuada com sucesso')
-    window.location.href="index.html"
+    window.location.href="painel.php"
 </script>
 
 <!-- include_once('index.php');        ??index.php é onde fica o log para conexão com o banco

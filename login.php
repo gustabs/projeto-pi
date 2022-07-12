@@ -3,7 +3,7 @@ session_start();
 include('connect.php');
  
 if(empty($_POST['usuario']) || empty($_POST['senha'])) {
-	header('Location: index.php');
+	header('Location: form.php');
 	exit();
 }
  
@@ -22,6 +22,6 @@ if($row == 1) {
 	exit();
 } else {
 	$_SESSION['nao_autenticado'] = true;
-	header('Location: index.php');
+	header('Location: form.php');
 	exit();
 }

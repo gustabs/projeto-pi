@@ -12,5 +12,5 @@ $query= mysqli_query($conexao, $sql);
 
 <script>
     alert('Sua compra foi efetuada com sucesso')
-    window.location.href="index.php"
+    window.location.href="form.php"
 </script>
